@@ -18,7 +18,6 @@ kshell::install-nginx::config() {
 
 kshell::install-nginx::service() {
     echo "call ${FUNCNAME}"
-
 }
 
 kshell::install-nginx::check() {

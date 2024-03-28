@@ -18,7 +18,6 @@ kshell::install-mysql::config() {
 
 kshell::install-mysql::service() {
     echo "call ${FUNCNAME}"
-
 }
 
 kshell::install-mysql::check() {
