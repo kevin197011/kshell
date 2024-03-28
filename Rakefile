@@ -17,5 +17,5 @@ task :push do
 end
 
 task :shfmt do
-  sh 'shfmt -i 4 -w -d . || true'
+  system 'shfmt -i 4 -w -d . || true'
 end
