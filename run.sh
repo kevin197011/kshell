@@ -4,6 +4,10 @@
 # This software is released under the MIT License.
 # https://opensource.org/licenses/MIT
 
+set -o errexit
+set -o nounset
+set -o pipefail
+
 source lib/install-nginx.sh
 source lib/install-mysql.sh
 
