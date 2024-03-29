@@ -7,9 +7,7 @@
 source lib/install-nginx.sh
 source lib/install-mysql.sh
 
-# Scan and execute main functions
 krun::main() {
-    # List all defined functions
     local functions=$(declare -F | awk '{print $3}')
     local pattern="run$"
 
